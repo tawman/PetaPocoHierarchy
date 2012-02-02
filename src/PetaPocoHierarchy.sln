@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{F481770F-7BC0-4686-A3D0-B73E775442B9}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetaPocoHierarchy", "PetaPocoHierarchy\PetaPocoHierarchy.csproj", "{B6C72A23-C95A-4E22-9181-1BC0F1DD80DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6C72A23-C95A-4E22-9181-1BC0F1DD80DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6C72A23-C95A-4E22-9181-1BC0F1DD80DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6C72A23-C95A-4E22-9181-1BC0F1DD80DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6C72A23-C95A-4E22-9181-1BC0F1DD80DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
